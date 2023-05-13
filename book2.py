@@ -4,19 +4,19 @@ client = MongoClient('mongodb://masmuhamadjamaludin10:GPiccdZTeotp6y68@ac-qxx6ol
 
 db = client.dbsparta
 
-db.temperatur.insert_one({
+db.cuaca.insert_one({
     'name': 'Kania', 
     'region': 'Karawang', 
     'temperatur': 29 
 })
 
-db.temperatur.insert_one({
+db.cuaca.insert_one({
     'name': 'Intan', 
     'region': 'Jakarta', 
     'temperatur': 30
 })
 
-db.temperatur.insert_one({
+db.cuaca.insert_one({
     'name': 'Kamal', 
     'region': 'Bandung', 
     'temperatur': 40
